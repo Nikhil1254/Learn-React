@@ -1,8 +1,10 @@
+import Counter from "./Counter.js";
+
 function App() {
 
 
     return <>
-        <h1>App Component</h1>
+        <Counter />
     </>
 }
 
