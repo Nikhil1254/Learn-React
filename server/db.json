@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Kedar",
+      "email": "kedar@gmail.com",
+      "contact": "45879632"
+    },
+    {
+      "name": "Ashok",
+      "email": "ashok@gmail.com",
+      "contact": "745891245",
+      "id": 4
+    },
+    {
+      "name": "Manjunath",
+      "email": "manjunath@gmail.com",
+      "contact": "1236547890",
+      "id": 5
+    },
+    {
+      "name": "Digambar",
+      "email": "digya@gmail.com",
+      "contact": "451263598",
+      "id": 6
+    },
+    {
+      "name": "Shambhu",
+      "email": "shambhu@gmail.com",
+      "contact": "74582316",
+      "id": 7
+    }
+  ]
+}
