@@ -66,8 +66,8 @@ function App() {
                                     <td>{user.name}</td>
                                     <td>{user.email}</td>
                                     <td>{user.contact}</td>
-                                    <td className="text-center"><button onClick={() => handleDelete(user.id)}>delete</button>&nbsp;
-                                        <button onClick={() => handleUpdate(user)}>update</button>
+                                    <td className="text-center"><button onClick={() => handleDelete(user.id)} className="btn btn-danger">delete</button>&nbsp;
+                                        <button onClick={() => handleUpdate(user)} className="btn btn-success">update</button>
                                     </td>
                                 </tr>
                             })
@@ -83,7 +83,7 @@ function App() {
                 onChange={(e) => setUser({ ...user, email: e.target.value })} /> <br /> <br />
             <input type="text" placeholder="Contact" value={user !== null ? user.contact : ''}
                 onChange={(e) => setUser({ ...user, contact: e.target.value })} /> <br /><br />
-            <button onClick={updateUser} disabled={!user}>Update User</button>
+            <button className="btn btn-success" onClick={updateUser} disabled={!user}>Update User</button>
         </div>
     </>
 }
