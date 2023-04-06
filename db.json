@@ -1,12 +1,6 @@
 {
   "users": [
     {
-      "id": 2,
-      "name": "Kedar",
-      "email": "kedar@gmail.com",
-      "contact": "45879632"
-    },
-    {
       "name": "Ashok",
       "email": "ashok@gmail.com",
       "contact": "745891245",
@@ -29,6 +23,12 @@
       "email": "shambhu@gmail.com",
       "contact": "74582316",
       "id": 7
+    },
+    {
+      "name": "Nikhil",
+      "email": "nik@gmail.com",
+      "contact": "652437890",
+      "id": 8
     }
   ]
 }
