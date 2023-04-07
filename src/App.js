@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 /**
  * 1. we can directly access elements DOM using useRef
  * 2. we should avoid directly manipulating DOM it will impact app performance
@@ -17,6 +17,10 @@ function App() {
         inputRef.current.style.color = "white";
         inputRef.current.style.backgroundColor = "tomato";
     }
+
+    useEffect(() => {
+        inputRef.current.focus();
+    },[])
 
     return <>
         <div className="container text-center">
