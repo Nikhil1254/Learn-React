@@ -1,19 +1,10 @@
 import { useReducer } from "react";
+import { countReducer } from "./reducers";
 
 function App() {
 
     const [count, dispatch] = useReducer(countReducer, 0);
 
-    function countReducer(prevCount, action) {
-        switch (action.type) {
-            case "INCREMENT":
-                return prevCount + action.payload;
-            case "DECREMENT":
-                return prevCount > 0 ? prevCount - action.payload : prevCount;
-            default:
-                return count;
-        }
-    }
 
     return <>
         <div className="container text-center mt-2">
